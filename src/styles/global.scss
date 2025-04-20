@@ -1,0 +1,10 @@
+@import '_reset.scss';
+@import '_variables.scss';
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
