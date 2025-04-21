@@ -1,9 +1,11 @@
 :root {
   --bg: #ffffff;
   --text: #000000;
+  --accent: #007aff;
 }
 
 [data-theme="dark"] {
   --bg: #0f0f0f;
   --text: #ffffff;
+  --accent: #00bfff;
 }
