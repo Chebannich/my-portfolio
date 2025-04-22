@@ -1,17 +1,11 @@
-import { ReactNode } from "react";
+import Header from '../Header/Header';
 import '../../styles/global.scss';
 
-import ThemeToggle from "../ThemeToggle";
-
-type LayoutProps = {
-  children: ReactNode;
-};
-
-const Lauout = ({ children }: LayoutProps) => {
+const Lauout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="layout">
-      {children}
-      <ThemeToggle />
+      <Header />
+      <main>{children}</main>
     </div>
   );
 };
